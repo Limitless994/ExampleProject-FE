@@ -1,0 +1,54 @@
+html, body {
+    height: 100%; /* Imposta l'altezza di html e body al 100% */
+    margin: 0; /* Rimuovi margini predefiniti */
+}
+
+.app-container {
+    display: flex; /* Utilizza Flexbox per il layout */
+    flex-direction: column; /* Imposta la direzione della flexbox in colonna */
+    height: 100%; /* Imposta l'altezza della app-container al 100% */
+}
+
+.spacer {
+    flex: 1 1 auto; /* Permette al bottone di espandersi per occupare spazio */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white; /* Colore del titolo */
+    margin-left: 8px; /* Spazio tra il logo e il titolo */
+}
+
+.logo {
+    height: 40px; /* Imposta l'altezza del logo */
+    margin-right: 16px; /* Spazio tra il logo e il titolo */
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column; /* Disporre i pulsanti in colonna */
+    padding: 16px; /* Spazio interno della sidebar */
+}
+
+mat-button {
+    color: black; /* Colore dei bottoni di navigazione */
+    margin-bottom: 16px; /* Margine tra i bottoni */
+}
+
+mat-sidenav {
+    width: 200px; /* Larghezza della sidebar */
+    background: white; /* Colore di sfondo della sidebar */
+}
+
+button[mat-icon-button] {
+    color: white; /* Colore del pulsante di logout */
+}
+
+.router-container {
+    flex: 1; /* Occupa tutto lo spazio rimanente */
+    min-height: 100px; /* Altezza minima per il contenitore */
+    background-color: white; /* Colore di sfondo per il contenitore */
+    padding: 16px; /* Spazio interno */
+    overflow: auto; /* Consente lo scroll se il contenuto supera l'altezza */
+}

@@ -1,0 +1,22 @@
+/* styles.css o il file CSS del tuo componente */
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altezza 100% della finestra */
+    background-color: #f5f5f5; /* Colore di sfondo chiaro */
+  }
+  
+  .login-card {
+    width: 400px; /* Larghezza fissa per la card */
+    padding: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    border-radius: 8px; /* Angoli arrotondati */
+  }
+  
+  .form-field {
+    width: 100%; /* Larghezza completa per i campi */
+    margin-bottom: 16px; /* Margine sotto ogni campo */
+  }
+  
